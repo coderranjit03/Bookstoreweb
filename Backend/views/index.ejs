@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="blog.css"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------- title ----------->
+    <title>Online Book Shop || APSITIANS</title>
+
+    <!-------- customer style link ----------->
+    <link rel="stylesheet" href="./css/style1.css">
+
+
+    <!-------- font awesome cdn link --------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+
+    <!------- swipper cdn link ------------>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
+</head>
+<body>
+
+    <!--------- header section start ------------>
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="" class="logo"><i class="fas fa-book"> BOOK STORE</i></a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="" class="fas fa-heart"></a>
+                <a href="addtocart" class="fas fa-shopping-cart"></a>
+                <a href="login.html"><div id="login-btn" class="fas fa-user"></div></a>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+
+            <div class="navbar">
+                <a href="#home">home</a>
+                <a href="#featured">featured</a>
+                <a href="#arrivals">arrivals</a>
+                <a href="#reviews">reviews</a>
+                <a href="#blogs">blogs</a>
+            </div>
+
+        </div>
+
+    </header>
+    <div class="cart">
+        <h2>CART</h2>
+    <div class="listcart">
+        <div class="item">
+            <img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/831/9781847941831.jpg">
+            <div class="content">
+                <div class="name">
+                    Atomic Habits
+                </div>
+                <div class="price">
+                    ₹551/1 product
+                </div>
+            </div>
+            <div class="quantity">
+                <button>-</button>
+                <span class="value">3</span>
+                <button>+</button>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="close">CLOSE</div>
+        <div class="checkout">
+            <a href="">CHECKOUT</a>
+        </div>
+    </div>
+    </div>
+
+    <!--------- header section ends ------------>
+
+    <!--------- bottom navbar  ------------>
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+    </div>
+
+
+    <!-------- bottom navbar start ----------->
+
+    <div class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-app-store"></a>
+    </div>
+
+
+    <!-------- bottom navbar ends ----------->
+
+     <!-------- login form start -----------> 
+     <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>sign in</h3>
+            <span>email</span>
+            <input type="email" name="" class="box"  placeholder="enter your email">
+            <span>password</span>
+            <input type="password" name="" class="box"  placeholder="enter your password">
+
+            <div class="check-box">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forgot password ? <a href="">click here</a></p>
+            <p>don't have an account ? <a href="">create one</a></p>
+        </form>
+        <div id="error-message"></div>
+    </div>
+
+     <!-------- login form ends ----------->
+
+
+      <!-------- home section start ----------->
+
+      <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>upto 55% offers</h3>
+                <p>You can take up to 70% off to step up your studies and skills with BOOKS STORE Deal of the Day Books. Buy books online such as Rich Dad Poor Dad, Manorama, etc. The following terms and conditions need to be adhered to for Amazon books.
+                    <br>
+                   <p>Offer Conditions:</p> 
+                    <br>
+                     <p>Applicable on all major categories & genres</p>  
+                     <br>                  
+                    <p>Literature up to 60% off</p>
+                    <br>
+                    <p>Fiction up to 70% off</p>
+                    <br>
+                    <p>Exam preparation: 50% off</p>
+                    <br>
+                </p>
+                <a href="" class="btn">shop now</a>
+            </div>
+
+            <div class="swiper books-list" >
+
+                <div class="swiper-wrapper">
+                    <a href="" class="swiper-slide"><img src="./image/i1.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/i2.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/i3.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/i4.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/i5.jpg" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="./image/i6.jpg" alt=""></a>
+                </div>
+
+                <img src="./image/stand.png" class="stand" alt="">
+                
+            </div>
+
+
+        </div>
+
+      </section>
+
+     <!-------- home section ends  ----------->
+
+    <!-------- icons section start  ----------->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>over payment</h3>
+                <p>over payment RS 100/-</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>secure payment</h3>
+                <p>secure payment RS 100/-</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24/7 support</h3>
+                <p>call us anytime</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-------- icons section ends  ----------->
+
+    <!-------- featured section start  ----------->
+
+    <section class="featured" id="featured">
+
+        <div class="heading"><span>featured books</span></div>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info" class="fas fa-eye"></a>
+                        
+                    </div>
+
+                    <div class="image">
+                        <img src="https://www.bookswagon.com/productimages/images200/477/9788128838477.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Chhatrapati Shivaji</h3>
+                        <div class="price">RS 1013/- <span>RS 1138/-</span></div>
+                        <a href="addtocart" class="btn" onclick="addToCart()">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info2" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/254/9788171826254.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Chanakya Neeti </h3>
+                        <div class="price">RS 1092/-<span>RS 1241/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info3" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://www.bookswagon.com/productimages/images200/185/9789385986185.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Bhagavad Gita</h3>
+                        <div class="price">RS 488/-<span>RS 650/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info10" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://www.bookswagon.com/productimages/images200/295/9780143442295.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>
+                            The Intelligent Investor</h3>
+                        <div class="price">RS 519/- <span>RS 799/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info4" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/219/9788186775219.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3> RICH DAD POOR DAD </h3>
+                        <div class="price">RS 359/- <span>RS 499/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info5" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/126/9780143452126.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Do It Today</h3>
+                        <div class="price">RS 119/- <span>RS 199/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info11" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/233/9789354227233.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Stargazing</h3>
+                        <div class="price">RS 1410/- <span>RS 3249/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info6" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://www.bookswagon.com/productimages/images200/835/9781451616835.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Abundance</h3>             
+                        <div class="price">RS 604/-<span>RS 1099/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info7" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/831/9781847941831.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Atomic Habits</h3>
+                        <div class="price">RS 551/- <span>RS 799/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info8" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://www.bookswagon.com/productimages/images200/781/9781861972781.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>The 48 Laws Of Power</h3>
+                        <div class="price">RS 551/- <span>RS 799/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="" class="fas fa-search"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="info9" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/704/9789354400704.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Your Time Will Come</h3>
+                        <div class="price">RS 119/- <span>RS 199/-</span></div>
+                        <a href="addtocart" class="btn">add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+   
+
+     <!-------- featured section ends  ----------->
+
+
+     <!-------- news letter section start  ----------->
+
+     <section class="newsletter">
+
+        <form action="">
+
+            <h3>subcribe for latest update</h3>
+            <input type="email" name="" placeholder="enter your email" class="box">
+            <input type="submit" value="subcribe" class="btn">
+        </form>
+     </section>
+
+
+
+     <!-------- news letter section ends  ----------->
+
+
+      <!-------- arrivals section start  ----------->
+
+      <section class="arrivals" id="arrivals">
+
+            <div class="heading"><span>new arrivals</span></div>
+
+            <div class="swiper arrivals-slider">
+
+                <div class="swiper-wrapper">
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/714JNsODlGL._SL1500_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Traitors Gate</h3>
+                            <div class="price">RS 359/- <span>RS 499/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/71Bp2xdG83L._SY466_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>The Ship</h3>
+                            <div class="price">RS 149/-<span>RS 250/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/81wNBwrCAHL._SY466_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Shyamchi Aai </h3>
+                            <div class="price">RS 100/- <span>RS 150/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/61TorlNgtzL._SY466_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Ramrajya </h3>
+                            <div class="price">RS 499/- <span>RS 599/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/61SOc2QYChS._SY466_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Shriman Yogi</h3>
+                            <div class="price">RS 564/-<span>RS 675/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="swiper arrivals-slider">
+
+                <div class="swiper-wrapper">
+
+                    
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/71jHeLMobIL._SY466_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Yayati</h3>
+                            <div class="price">RS 250/- <span>RS 299/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/61axa6vS-BL._SY466_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Jungle Book</h3>
+                            <div class="price">RS 100/- <span>RS 149/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/715VMjRDt7L._SY466_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Panchatantra</h3>
+                            <div class="price">RS 100/-<span>RS 149/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/81TkpoPjOyL._SY466_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Tomie</h3>
+                            <div class="price">RS 1637/-<span>RS 2999/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="swiper-slide box">
+                        <div class="image">
+                            <img src="https://m.media-amazon.com/images/I/41AIYCmlqOL._AC_UY327_FMwebp_QL65_.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Yugandhar</h3>
+                            <div class="price">RS 750/- <span>RS 799/-</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+      </section>
+
+
+       <!-------- arrivals section ends  ----------->
+
+        <!-------- deal section start  ----------->
+
+        <section class="deal">
+
+            <div class="content">
+                <h3>deal of the day</h3>
+                <h1>upto 50% offers</h1>
+                <p>
+                   "Book lovers unite! Today's deal of the day: Your ticket to new worlds at a fraction of the cost."
+                </p>
+                <a href="" class="btn">shop now</a>
+            </div>
+
+            <div class="image">
+                <img src="./image/deal-img.jpg" alt="">
+            </div>
+
+        </section>
+
+
+
+
+         <!-------- deal section ends  ----------->
+
+
+        <!-------- review section start  ----------->
+
+        <section class="reviews" id="reviews">
+
+            <h1 class="heading"><span>client's reviews</span></h1>
+
+            <div class="swiper reviews-slider">
+
+                <div class="swiper-wrapper">
+                     <div class="swiper-slide box">
+                        <img src="./image/deva.jpg" alt="">
+                        <h3>deva pawar</h3>
+                        <p>
+                            The book arrived in good condition , well packaged.
+
+The book arrived quickly with P&P waived. In addition, there was a bit of a discount on the retail price, always appreciated.best place to spend time for book shopping
+                        </p>
+    
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img src="./image/rohan.jpg" alt="">
+                        <h3>rohan patil</h3>
+                        <p>
+                            I love ordering from bookshop. I can always find the books I want and I enjoy browsing. Simple ordering process and easy to keep track of orders. Even better that using bookshop supports independent booksellers
+                        </p>
+    
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img src="./image/sanket.jpg" alt="">
+                        <h3>sanket kudale</h3>
+                        <p>
+                            Excellent service - well packed and without plastic, and the books arrived quickly and in perfect condition. Can’t recommend BookLY highly enough - supporting independent bookshops is worth doing
+                        </p>
+    
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img src="./image/tejas.jpg" alt="">
+                        <h3>tejas kalokhe</h3>
+                        <p>
+                            Lots of information and useful reviews on the content of a wide range of books, easy wish list and ordering system and prompt delivery of ordered items. Very happy to support these small bookstores rather than Amazon
+                        </p>
+    
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img src="./image/bhushan.jpg" alt="">
+                        <h3>bhushan kokate</h3>
+                        <p>
+                            Couldn't have been better. Being able to support a local bookshop (or simply all independents if you don't have a particular one in mind) is simply fantastic. The prices are reasonable. The books arrived on time and in great nick.
+                        </p>
+    
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img src="./image/sahil.jpg" alt="">
+                        <h3>sahil govardhane</h3>
+                        <p>
+                            Prompt delivery, great stock, website easy to use, and it helps me to support independent bookshops. What's not to like? Simple order process and easy to track HAPPY TO SUPPORT THIS NEW SMALL BOOKSTORE
+                        </p>
+    
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-------- review section ends  ----------->
+
+
+         <!-------- blog section start  ----------->
+
+         <section class="blogs" id="blogs">
+
+            <div class="heading"><span>BLOGS</span></div>
+
+            <div class="swiper blog-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/blog.webp" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>UNLOCKING THE POWER OF WORDS: BOOKS FOR COMMUNICATION SKILLS</h3>
+                            <p>
+                                <p>By Arpit D. Sep 6, 2023</p>
+                                <br>
+
+                                Enhancing communication skills is an investment that pays dividends in personal and professional life. The books mentioned above provide a diverse range of strategies, techniques, and insights to help individuals...
+                                <br><br>
+                            </p>
+                            <a href="blog.html" class="btn">read more</a>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/blog1.webp" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>A COMPREHENSIVE GUIDE ON HOW TO PREPARE FOR COMPETITIVE EXAMS</h3>
+                            <p>
+                                <p>By Arpit D. Sep 6, 2023</p>
+                                <br>
+                                Preparing for competitive exams requires dedication, consistent effort, and a strategic approach. By understanding the exam pattern, creating a study plan, practicing regularly, and maintaining...
+                                <br>
+                                <br>
+                            </p>
+                            <a href="blog1.html" class="btn">read more</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/blog2.webp" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>THE TIMELESS MAGIC OF NOVELS: WINDOWS TO WORLDS</h3>
+                            <p><p>
+                                By Arpit D. Sep 6, 2023
+                            </p>
+                        <br>
+                        Novels, the literary wonders that they are, have captivated readers for centuries. These captivating works of fiction transport us to different times, places, and perspectives, offering a profound escape...
+                        <br>
+                        <br>
+                    </p>
+                            <a href="blog2.html" class="btn">read more</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/blog3.webp" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>EXPLORING THE BEST BOOKS OF ALL TIME</h3>
+                            <p>
+                               <p>By Arpit D. Sep 6, 2023</p>
+                               <br>
+                               The world of literature is a treasure trove of timeless classics, each offering a unique perspective on the human experience. The books mentioned above are just a small selection of...
+                            </p><br><br><br>
+                            <a href="blog3.html" class="btn">read more</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./image/blog4.webp" alt="">
+                        </div>
+
+                        <div class="content">
+                            <h3>THE ULTIMATE GUIDE TO CREATING YOUR DREAM BOOK STATION</h3>
+                            <p>
+                              <p>By Arpit D. Sep 6, 2023</p><br>
+                              Creating your dream book station is a fulfilling journey that combines your passion for reading with interior design. A well-designed and organized book station not only showcases your collection but...
+                            </p><br>
+                            <a href="blog4.html" class="btn">read more</a>
+                        </div>
+                        
+                    </div>
+
+                   
+                </div>
+            </div>
+         </section>
+
+
+          <!-------- blog section ends  ----------->
+
+          <!-------- footer section start  ----------->
+
+          <section class="footer">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <h3>our locations</h3>
+                        <a href="https://www.google.co.in/maps/place/India/@19.6892938,61.0135775,4z/data=!3m1!4b1!4m6!3m5!1s0x30635ff06b92b791:0xd78c4fa1854213a6!8m2!3d20.593684!4d78.96288!16zL20vMDNyazA?entry=ttu"><i class="fas fa-map-marker-alt"></i>india</a>
+                    
+                        <a href="https://www.google.co.in/maps/place/United+States/@35.656387,-116.9812847,4z/data=!3m1!4b1!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891!16zL20vMDljN3cw?entry=ttu"><i class="fas fa-map-marker-alt"></i>USA</a>
+                        <a href="https://www.google.co.in/maps/place/Russia/@47.6814258,63.265704,3z/data=!4m6!3m5!1s0x453c569a896724fb:0x1409fdf86611f613!8m2!3d61.52401!4d105.318756!16zL20vMDZibno?entry=ttu"><i class="fas fa-map-marker-alt"></i>russia</a>
+                        <a href="https://www.google.co.in/maps/place/France/@46.0974034,-3.2314652,6z/data=!3m1!4b1!4m6!3m5!1s0xd54a02933785731:0x6bfd3f96c747d9f7!8m2!3d46.227638!4d2.213749!16zL20vMGY4bDlj?entry=ttu"><i class="fas fa-map-marker-alt"></i>france</a>
+                        <a href="https://www.google.co.in/maps/place/Japan/@46.0974034,-3.2314652,6z/data=!4m6!3m5!1s0x34674e0fd77f192f:0xf54275d47c665244!8m2!3d36.204824!4d138.252924!16zL20vMDNfM2Q?entry=ttu"><i class="fas fa-map-marker-alt"></i>japan</a>
+                        <a href="https://www.google.co.in/maps/place/Africa/@1.4585368,-26.3479129,3z/data=!3m1!4b1!4m6!3m5!1s0x10a06c0a948cf5d5:0x108270c99e90f0b3!8m2!3d-8.783195!4d34.508523!16zL20vMGRnM24x?entry=ttu"><i class="fas fa-map-marker-alt"></i>africa</a>
+                    </div>
+
+                    <div class="box">
+                        <h3>quick links</h3>
+                        <a href=""><i class="fas fa-arrow-right"></i>home</a>
+                        <a href=""><i class="fas fa-arrow-right"></i>freatured</a>
+                        <a href=""><i class="fas fa-arrow-right"></i>arrivals</a>
+                        <a href=""><i class="fas fa-arrow-right"></i>blogs</a>
+                        <a href=""><i class="fas fa-arrow-right"></i>track order</a>
+                      
+                    </div>
+
+                    <div class="box">
+                        <h3>extra links</h3>
+                        <a href=""><i class="fas fa-arrow-right"></i>account info</a>
+                        <a href=""><i class="fas fa-arrow-right"></i>ordered items</a>
+                        <a href="policy.html"><i class="fas fa-arrow-right"></i>privacy policy</a>
+                        <a href=""><i class="fas fa-arrow-right"></i>payment method</a>
+                        <a href="service"><i class="fas fa-arrow-right"></i>our services</a>
+                    </div>
+
+
+                    <div class="box">
+                        <h3>contact info</h3>
+                        <a href=""><i class="fas fa-phone"></i>+918856003243</a>
+                        <a href=""><i class="fas fa-phone"></i>+91728742005</a>
+                        <a href="mailto:apsitians@gmail.com"><i class="fas fa-envelope"></i>apsitians@gmail.com</a>
+                        <!-- <a href="mailto:kadamranjit0304@gmail.com">email</a> -->
+                        <img src="./image/worldmap.png" alt="" class="map">
+                    </div>
+                </div>
+
+                <div class="share">
+                    <a href=""><i class="fas fa-facebook"></i></a>
+                    <a href=""><i class="fas fa-twitter"></i></a>
+                    <a href=""><i class="fas fa-instagram"></i></a>
+                    <a href=""><i class="fas fa-linkedin"></i></a>
+                    <a href=""><i class="fas fa-square-pinterest"></i></a>
+                </div>
+
+                <div class="credit">create by <span>APSITIAN</span> | all rights reserved</div>
+
+          </section>
+
+
+
+
+
+          <!-------- footer section ends  ----------->
+
+                     
+
+
+
+
+
+      <!---- swiper cdn link ---------->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+     
+
+     <!------- customer script link --------->
+
+     <script src="script.js"></script>
+    
+</body>
+</html>

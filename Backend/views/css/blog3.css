@@ -1,0 +1,40 @@
+/* Style for the hidden content */
+/* .hidden-content {
+    display: none;
+} */
+
+/* Style for the 'Read More' button */
+#read-more-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#Heading{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* body{
+    background-image: url(blog-2.jpg);
+    opacity: 0.1;
+} */
+.blog-post{
+    margin-inline: 200px;
+}
+body{
+    background-image: url(gb.jpg);
+    /* max-width: 500px;
+    background-repeat: no-repeat; */
+}
+#image{
+    margin-left: 175px;
+}
+.maincontainer{
+    display: flex;
+    flex-direction:column ;
+justify-content: center;
+}

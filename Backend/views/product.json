@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Chhatrapati Shivaji",
+        "price": 1013,
+        "image": "https://www.bookswagon.com/productimages/images200/477/9788128838477.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Atomic Habits",
+        "price": 551,
+        "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/831/9781847941831.jpg"
+    },
+    {
+        "id": 3,
+        "name": "The 48 Laws Of Power",
+        "price": 551,
+        "image": "https://www.bookswagon.com/productimages/images200/781/9781861972781.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Your Time Will Come",
+        "price": 119,
+        "image": "images/4.webphttps://d2g9wbak88g7ch.cloudfront.net/productimages/images200/704/9789354400704.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Abundance",
+        "price": 604,
+        "image": "https://www.bookswagon.com/productimages/images200/835/9781451616835.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Stargazing",
+        "price": 1410,
+        "image": "https://d2g9wbak88g7ch.cloudfront.net/productimages/images200/233/9789354227233.jpg"
+    }
+]
